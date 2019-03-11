@@ -15,7 +15,7 @@ def main(argv):
             start = time.time()
             PathFinder().get_next_path(image_path)
             end = time.time()
-            print("Time taken to execute(in seconds) = " + str(end - start))
+            #print("Time taken to execute(in seconds) = " + str(end - start))
 
         else:
             raise Exception('User Error - File not located at the location mentioned in argument')
