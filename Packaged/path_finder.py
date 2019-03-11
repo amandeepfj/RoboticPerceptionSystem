@@ -8,8 +8,7 @@ from scipy import stats
 
 
 class PathFinder:
-    """Class that finds the path for the robot!
-    The constructor will take path of the image as input"""
+    """Class that finds the path for the robot!"""
     def getValidHumanRect(self, rects):
         """Finds valid human rects from array of rects."""
         rect = None
